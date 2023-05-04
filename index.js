@@ -14,7 +14,7 @@ function aplicarDescontoGrandeTest() {
 
 console.log('A aplicação de desconto GRANDE está funcionando? ')
 console.log(aplicarDescontoGrandeTest())
-console.log('OLÁ JEST')
+console.log()
 console.log('A aplicação de desconto está funcionando?')
 console.log('Resultado:', aplicarDescontoTeste())
 
