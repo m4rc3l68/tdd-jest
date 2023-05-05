@@ -1,8 +1,7 @@
-const testarIndex = require('./index')
+const index = require('./index')
 
-test('Testar App', () => {
-  const ressut = testarIndex
-  expect(ressut).toBeTruthy()
+test('Aplicar desconto', () => {
+  const result = index.aplicarDesconto(10, 5)
+  expect(result).toEqual(5)
 })
-
 
